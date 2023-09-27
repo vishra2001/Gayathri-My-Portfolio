@@ -1,0 +1,21 @@
+Install Git for Windows
+Complete the download and installation for the following tools, using default settings:
+www.gitforwindows.org/
+www.tortoisegit.org/
+l www.puttygen.com/ (if not part of previous Tortoisegit install)
+Set Up Authentication Keys
+Do these steps so you can continue with cloning the repository files.
+1. Open PuttyGen (you might need to type it in the Windows search).
+2. Use Type = RSA.
+3. Click Generate and follow the prompts.
+4. Click both Save public key and Save private key.
+5. Copy the key string at the top.
+4 OF 30 | HELP PRODUCTION GUIDE OCTOBER 2021 © NWEA
+6. In a browser, open the source control repository:
+https://stash.americas.nwea.pvt/projects/PM
+Note: If you encounter errors, consider this tip from Denise Riffle—”Once I logged in
+Captive Portal with the Secret Server password, I was able to log in to Bitbucket
+successfully using my NWEA login.”
+7. Under profile icon, click Manage Account.
+8. In the account settings, choose SSH keys > Add key.
+9. Paste the key string.
